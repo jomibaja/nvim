@@ -23,3 +23,6 @@ map("n", "<leader>gc", ":Git commit<CR>")
 map("n", "<leader>gp", ":Git push<CR>")
 map("n", "<leader>gb", ":Git blame<CR>")
 map("n", "<leader>gl", ":Git log<CR>")
+
+-- Lazygit
+map("n", "<leader>gg", ":LazyGit<CR>")

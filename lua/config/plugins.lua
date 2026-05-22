@@ -80,4 +80,10 @@ return {
   {
     "tpope/vim-fugitive",
   },
+
+  -- Lazygit (UI visual de git)
+  {
+    "kdheepak/lazygit.nvim",
+    dependencies = { "nvim-lua/plenary.nvim" },
+  },
 }
